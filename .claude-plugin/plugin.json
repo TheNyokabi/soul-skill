@@ -1,0 +1,24 @@
+{
+  "name": "soul",
+  "version": "0.1.0",
+  "description": "Pre-flight audit run before any execution. Identifies domain, invokes process skills (brainstorming/TDD/debugging/verification) and domain skills, checks MCPs, and auto-installs missing marketplace plugins from trusted owners.",
+  "author": {
+    "name": "TheNyokabi",
+    "url": "https://github.com/TheNyokabi"
+  },
+  "homepage": "https://github.com/TheNyokabi/soul-skill",
+  "repository": "https://github.com/TheNyokabi/soul-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "pre-flight",
+    "audit",
+    "orchestration",
+    "superpowers",
+    "mcp",
+    "marketplace",
+    "auto-install"
+  ],
+  "skills": "./"
+}

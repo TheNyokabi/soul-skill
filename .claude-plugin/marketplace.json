@@ -1,0 +1,17 @@
+{
+  "name": "soul-skill",
+  "metadata": {
+    "description": "Soul — pre-flight audit skill for Claude Code. Classifies task domain, loads process+domain skills, checks MCPs, and auto-installs marketplace plugins per a trusted-owner allowlist."
+  },
+  "owner": {
+    "name": "TheNyokabi",
+    "url": "https://github.com/TheNyokabi"
+  },
+  "plugins": [
+    {
+      "name": "soul",
+      "source": "./",
+      "description": "Pre-flight audit run before any execution. Identifies domain, invokes process skills (brainstorming/TDD/debugging/verification) and domain skills, checks MCPs, and auto-installs missing marketplace plugins from trusted owners."
+    }
+  ]
+}
